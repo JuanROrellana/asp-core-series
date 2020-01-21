@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LoggerService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -11,29 +12,28 @@ namespace api.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly ILoggerManager _logger;
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILoggerManager logger)
         {
             _logger = logger;
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public List<string> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            _logger.LogDebug("asd");
+            _logger.LogError("asd");
+            _logger.LogInfo("asd");
+            _logger.LogWarn("asd");
+            return new List<string>
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+                "Hello"
+            };
         }
     }
 }

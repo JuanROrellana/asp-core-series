@@ -1,3 +1,4 @@
+using LoggerService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -25,6 +26,12 @@ namespace api.Extensions
             {
  
             }); 
+        }
+        
+        //Add Logging
+        public static void ConfigureLoggerService(this IServiceCollection services)
+        {
+            services.AddSingleton<ILoggerManager, LoggerManager>();
         }
     }
 }
