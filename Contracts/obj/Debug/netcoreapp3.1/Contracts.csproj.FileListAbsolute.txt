@@ -1,0 +1,8 @@
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/bin/Debug/netcoreapp3.1/Contracts.deps.json
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/bin/Debug/netcoreapp3.1/Contracts.dll
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/bin/Debug/netcoreapp3.1/Contracts.pdb
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/obj/Debug/netcoreapp3.1/Contracts.csprojAssemblyReference.cache
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/obj/Debug/netcoreapp3.1/Contracts.AssemblyInfoInputs.cache
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/obj/Debug/netcoreapp3.1/Contracts.AssemblyInfo.cs
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/obj/Debug/netcoreapp3.1/Contracts.dll
+/home/juanji/Documents/dotnet/asp_core_series/Contracts/obj/Debug/netcoreapp3.1/Contracts.pdb

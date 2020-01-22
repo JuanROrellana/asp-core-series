@@ -1,0 +1,10 @@
+/home/juanji/Documents/dotnet/asp_core_series/Entities/bin/Debug/netcoreapp3.1/Entities.deps.json
+/home/juanji/Documents/dotnet/asp_core_series/Entities/bin/Debug/netcoreapp3.1/Entities.dll
+/home/juanji/Documents/dotnet/asp_core_series/Entities/bin/Debug/netcoreapp3.1/Entities.pdb
+/home/juanji/Documents/dotnet/asp_core_series/Entities/obj/Debug/netcoreapp3.1/Entities.csprojAssemblyReference.cache
+/home/juanji/Documents/dotnet/asp_core_series/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfoInputs.cache
+/home/juanji/Documents/dotnet/asp_core_series/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfo.cs
+/home/juanji/Documents/dotnet/asp_core_series/Entities/obj/Debug/netcoreapp3.1/Entities.dll
+/home/juanji/Documents/dotnet/asp_core_series/Entities/obj/Debug/netcoreapp3.1/Entities.pdb
+/home/juanji/Documents/dotnet/asp_core_series/Entities/bin/Debug/netcoreapp3.1/Entities.runtimeconfig.json
+/home/juanji/Documents/dotnet/asp_core_series/Entities/bin/Debug/netcoreapp3.1/Entities.runtimeconfig.dev.json

@@ -1,0 +1,8 @@
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/bin/Debug/netcoreapp3.1/LoggerService.deps.json
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/bin/Debug/netcoreapp3.1/LoggerService.dll
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/bin/Debug/netcoreapp3.1/LoggerService.pdb
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.csprojAssemblyReference.cache
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.AssemblyInfoInputs.cache
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.AssemblyInfo.cs
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.dll
+/home/juanji/Documents/dotnet/asp_core_series/LoggerService/obj/Debug/netcoreapp3.1/LoggerService.pdb
