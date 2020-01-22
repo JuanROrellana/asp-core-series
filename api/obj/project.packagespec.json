@@ -18,17 +18,11 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/home/juanji/Documents/dotnet/asp_core_series/Contracts/Contracts.csproj": {
-            "projectPath": "/home/juanji/Documents/dotnet/asp_core_series/Contracts/Contracts.csproj"
-          },
           "/home/juanji/Documents/dotnet/asp_core_series/Entities/Entities.csproj": {
             "projectPath": "/home/juanji/Documents/dotnet/asp_core_series/Entities/Entities.csproj"
           },
           "/home/juanji/Documents/dotnet/asp_core_series/LoggerService/LoggerService.csproj": {
             "projectPath": "/home/juanji/Documents/dotnet/asp_core_series/LoggerService/LoggerService.csproj"
-          },
-          "/home/juanji/Documents/dotnet/asp_core_series/Repository/Repository.csproj": {
-            "projectPath": "/home/juanji/Documents/dotnet/asp_core_series/Repository/Repository.csproj"
           }
         }
       }
