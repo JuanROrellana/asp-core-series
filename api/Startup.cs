@@ -34,6 +34,7 @@ namespace api
             services.ConfigureIisIntegration();
             services.ConfigureLoggerService();
             services.AddControllers();
+            services.ConfigureMySqlContext(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,26 +44,19 @@ namespace api
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseHttpsRedirection();
-
             app.UseStaticFiles();
-
             app.UseCors("CorsPolicy");
-            
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
                 ForwardedHeaders = ForwardedHeaders.All
             });
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-        }
+        }    
     }
 }
