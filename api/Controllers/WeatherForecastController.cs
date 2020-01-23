@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Contracts;
+using Entities.Models;
 using LoggerService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -13,27 +15,29 @@ namespace api.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly ILoggerManager _logger;
+        private IRepositoryWrapper _ownerRepository; 
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        public WeatherForecastController(ILoggerManager logger)
+        public WeatherForecastController(ILoggerManager logger, IRepositoryWrapper ownerRepository)
         {
             _logger = logger;
+            _ownerRepository = ownerRepository;
         }
 
         [HttpGet]
-        public List<string> Get()
+        public IActionResult Get()
         {
-            _logger.LogDebug("asd");
-            _logger.LogError("asd");
-            _logger.LogInfo("asd");
-            _logger.LogWarn("asd");
-            return new List<string>
+            _ownerRepository.Owner.Create(new Owner
             {
-                "Hello"
-            };
+                Address = "Test",
+                Name = "John"
+            });
+            _ownerRepository.Save();
+            var owners = _ownerRepository.Owner.FindAll();
+            return Ok(owners);
         }
     }
 }
