@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 
 namespace Repository
 {
-    public class RepositoryBase<T> : IRepositoryBase<T> where T : class
+    public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
         protected RepositoryContext RepositoryContext { get; set; }
         
