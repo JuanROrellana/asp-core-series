@@ -15,5 +15,15 @@ namespace Repository
         }
         
         public IEnumerable<Account> AccountsByOwner(Guid ownerId) => FindByCondition(a => a.OwnerId.Equals(ownerId)).ToList();
+        
+        public IEnumerable<Account> GetAllAccounts() =>
+            FindAll()
+                .OrderBy(ac => ac.DateCreated);
+
+        public void CreateAccount(Account account)
+        {
+            account.Id = Guid.NewGuid();
+            Create(account);
+        }
     }
 }

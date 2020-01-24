@@ -40,8 +40,7 @@ namespace api.Extensions
         public static void ConfigureMySqlContext(this IServiceCollection serviceCollection,
             IConfiguration configuration)
         {
-            var connectionString = configuration["mysqlconnection:connectionString"];
-            serviceCollection.AddDbContextPool<RepositoryContext>(o => o.UseMySql(connectionString));
+            serviceCollection.AddDbContext<RepositoryContext>(o => o.UseInMemoryDatabase("accountowner"));
         }
         
         //Add Repository

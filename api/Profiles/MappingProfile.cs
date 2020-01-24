@@ -13,6 +13,7 @@ namespace api.Profiles
             CreateMap<Owner, OwnerDto>();
             CreateMap<OwnerForCreationDto, Owner>();
             CreateMap<OwnerForUpdateDto, Owner>();
+            CreateMap<AccountForCreationDto, Account>();
         }
     }
 }

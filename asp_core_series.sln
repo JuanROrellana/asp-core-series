@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{637043CD-FD8A-4DCE-A701-7413093069DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{42019161-C7EE-4E32-B102-0C4C9B1B3560}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{637043CD-FD8A-4DCE-A701-7413093069DD}.Release|x64.Build.0 = Release|Any CPU
 		{637043CD-FD8A-4DCE-A701-7413093069DD}.Release|x86.ActiveCfg = Release|Any CPU
 		{637043CD-FD8A-4DCE-A701-7413093069DD}.Release|x86.Build.0 = Release|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Debug|x64.Build.0 = Debug|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Debug|x86.Build.0 = Debug|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Release|x64.ActiveCfg = Release|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Release|x64.Build.0 = Release|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Release|x86.ActiveCfg = Release|Any CPU
+		{42019161-C7EE-4E32-B102-0C4C9B1B3560}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
