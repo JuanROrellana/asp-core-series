@@ -15,7 +15,7 @@ namespace api.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly ILoggerManager _logger;
-        private IRepositoryWrapper _ownerRepository; 
+        private readonly IRepositoryWrapper _ownerRepository; 
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -27,17 +27,17 @@ namespace api.Controllers
             _ownerRepository = ownerRepository;
         }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
-            _ownerRepository.Owner.Create(new Owner
-            {
-                Address = "Test",
-                Name = "John"
-            });
-            _ownerRepository.Save();
-            var owners = _ownerRepository.Owner.FindAll();
-            return Ok(owners);
-        }
+        // [HttpGet]
+        // public IActionResult Get()
+        // {
+        //     _ownerRepository.Owner.Create(new Owner
+        //     {
+        //         Address = "Test",
+        //         Name = "John"
+        //     });
+        //     _ownerRepository.Save();
+        //     var owners = _ownerRepository.Owner.FindAll();
+        //     return Ok(owners);
+        // }
     }
 }
