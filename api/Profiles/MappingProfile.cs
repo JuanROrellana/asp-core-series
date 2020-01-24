@@ -9,6 +9,8 @@ namespace api.Profiles
         public MappingProfile()
         {
             CreateMap<Owner, OwnerDto>();
+            CreateMap<Account, AccountDto>();
+            CreateMap<Owner, OwnerDto>();
         }
     }
 }
